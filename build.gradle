@@ -58,6 +58,15 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-chrome-driver:2.47.1"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+    // https://grails-plugins.github.io/grails-spring-security-core/3.2.x/index.html#installation
+    compile 'org.grails.plugins:spring-security-core:3.2.3'
+
+    // https://grails-plugins.github.io/grails-spring-security-ui/latest/#installation
+    compile 'org.grails.plugins:spring-security-ui:3.1.2'
+
+    // http://guides.grails.org/grails-controller-testing/guide/index.html#functionalTestController
+    testCompile "org.grails:grails-datastore-rest-client"
 }
 
 bootRun {
